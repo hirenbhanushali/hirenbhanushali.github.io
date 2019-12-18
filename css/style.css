@@ -5,7 +5,7 @@ html {
     width: 100%;
     height: 100%;
     font-family: 'Montserrat', sans-serif;
-    background: url("https://i.postimg.cc/CxnM7D5T/bg.jpg") no-repeat center center/cover;
+    background: url(../img/cover.jpg) no-repeat center center/cover;
 
 }
 
@@ -74,4 +74,27 @@ footer,a
 
 .footer-main a{
     color: #e2dbdb;
+}
+
+@media(max-width: 800px) {
+body {
+        background: url(../img/bg-tab.jpg) no-repeat center center/cover;
+    }    
+}
+
+
+@media(max-width: 500px) {
+    body {
+        background: url(../img/bg-mob.jpg) no-repeat center center/cover;
+    }
+
+    .buffer {
+    height: 10rem;
+}
+
+.maintxt{
+    padding-top: 9rem;
+    padding-bottom: 0;
+}
+
 }
